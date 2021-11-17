@@ -22,12 +22,9 @@ public class BeerDto {
   private OffsetDateTime lastModifiedDate;
 
   private String beerName;
-
   private BeerStyleEnum beerStyle;
-
   private Long upc;
 
   private BigDecimal price;
-
   private Integer quantityOnHand;
 }
