@@ -12,7 +12,7 @@ import javax.validation.constraints.Positive;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
-
+//todo mapper added and circle ci as well
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
