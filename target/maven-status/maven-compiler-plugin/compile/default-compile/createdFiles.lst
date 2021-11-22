@@ -1,0 +1,14 @@
+com/microbrew/msscbeerservice/msscbeerservice/respositories/BeerRepository.class
+com/microbrew/msscbeerservice/msscbeerservice/web/model/BeerDto$BeerDtoBuilder.class
+com/microbrew/msscbeerservice/msscbeerservice/web/mapper/BeerMapper.class
+com/microbrew/msscbeerservice/msscbeerservice/web/mapper/DateMapper.class
+com/microbrew/msscbeerservice/msscbeerservice/MsscBeerServiceApplication.class
+com/microbrew/msscbeerservice/msscbeerservice/domain/Beer.class
+com/microbrew/msscbeerservice/msscbeerservice/web/mapper/BeerMapperImpl.class
+com/microbrew/msscbeerservice/msscbeerservice/web/controller/BeerController.class
+com/microbrew/msscbeerservice/msscbeerservice/bootstrap/BeerLoader.class
+com/microbrew/msscbeerservice/msscbeerservice/web/model/BeerDto.class
+com/microbrew/msscbeerservice/msscbeerservice/web/model/BeerPageList.class
+com/microbrew/msscbeerservice/msscbeerservice/web/controller/MvcExceptionHandler.class
+com/microbrew/msscbeerservice/msscbeerservice/domain/Beer$BeerBuilder.class
+com/microbrew/msscbeerservice/msscbeerservice/web/model/BeerStyleEnum.class
