@@ -1,8 +1,11 @@
+com/microbrew/msscbeerservice/msscbeerservice/web/controller/NotFoundException.class
 com/microbrew/msscbeerservice/msscbeerservice/respositories/BeerRepository.class
 com/microbrew/msscbeerservice/msscbeerservice/web/model/BeerDto$BeerDtoBuilder.class
 com/microbrew/msscbeerservice/msscbeerservice/web/mapper/BeerMapper.class
 com/microbrew/msscbeerservice/msscbeerservice/web/mapper/DateMapper.class
 com/microbrew/msscbeerservice/msscbeerservice/MsscBeerServiceApplication.class
+com/microbrew/msscbeerservice/msscbeerservice/services/BeerServiceImpl.class
+com/microbrew/msscbeerservice/msscbeerservice/services/BeerService.class
 com/microbrew/msscbeerservice/msscbeerservice/domain/Beer.class
 com/microbrew/msscbeerservice/msscbeerservice/web/mapper/BeerMapperImpl.class
 com/microbrew/msscbeerservice/msscbeerservice/web/controller/BeerController.class

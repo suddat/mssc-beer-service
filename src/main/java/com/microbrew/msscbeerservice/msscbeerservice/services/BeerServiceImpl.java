@@ -6,6 +6,7 @@ import com.microbrew.msscbeerservice.msscbeerservice.web.controller.NotFoundExce
 import com.microbrew.msscbeerservice.msscbeerservice.web.mapper.BeerMapper;
 import com.microbrew.msscbeerservice.msscbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -14,8 +15,9 @@ import java.util.UUID;
 @Service
 public class BeerServiceImpl implements BeerService {
 
-  private final BeerRepository beerRepository;
-  private final BeerMapper beerMapper;
+  @Autowired private BeerRepository beerRepository;
+
+  private BeerMapper beerMapper;
 
   @Override
   public BeerDto getById(UUID beerId) {
