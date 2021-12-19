@@ -1,5 +1,6 @@
 package com.microbrew.msscbeerservice.msscbeerservice.web.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,7 +13,7 @@ import javax.validation.constraints.Positive;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
-//todo mapper added and circle ci as well
+// todo mapper added and circle ci as well
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -31,6 +32,10 @@ public class BeerDto {
   @NotNull private BeerStyleEnum beerStyle;
   @Positive private Long upc;
 
-  @NotNull private BigDecimal price;
+  @JsonFormat(shape = JsonFormat.Shape.STRING)
+  @Positive
+  @NotNull
+  private BigDecimal price;
+
   @Positive private Integer quantityOnHand;
 }
