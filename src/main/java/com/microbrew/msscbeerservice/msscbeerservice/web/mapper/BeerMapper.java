@@ -9,4 +9,5 @@ public interface BeerMapper {
   Beer beerDtoToBeer(BeerDto beerDto);
 
   BeerDto beerToBeerDto(Beer beer);
+  BeerDto beerToBeerDtoWithInventory(Beer beer);
 }

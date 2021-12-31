@@ -9,10 +9,10 @@ import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
-public class BeerPageList extends PageImpl<BeerDto> {
+public class BeerPagedList extends PageImpl<BeerDto> {
 
   @JsonCreator(mode = JsonCreator.Mode.PROPERTIES)
-  public BeerPageList(
+  public BeerPagedList(
       @JsonProperty("content") List<BeerDto> content,
       @JsonProperty("number") int number,
       @JsonProperty("size") int size,
@@ -27,11 +27,11 @@ public class BeerPageList extends PageImpl<BeerDto> {
     super(content, PageRequest.of(number, size), totalElements);
   }
 
-  public BeerPageList(List<BeerDto> content, Pageable pageable, long total) {
+  public BeerPagedList(List<BeerDto> content, Pageable pageable, long total) {
     super(content, pageable, total);
   }
 
-  public BeerPageList(List<BeerDto> content) {
+  public BeerPagedList(List<BeerDto> content) {
     super(content);
   }
 }
