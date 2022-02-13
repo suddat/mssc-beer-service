@@ -9,7 +9,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-01-05T21:34:48+0530",
+    date = "2022-02-12T17:35:24+0530",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.8 (Amazon.com Inc.)"
 )
 public class BeerMapperImpl implements BeerMapper {

@@ -1,2 +1,2 @@
-/home/suddat/Documents/microserviceGuru/mssc-beer-service/src/test/java/com/microbrew/msscbeerservice/msscbeerservice/web/controller/BeerControllerTest.java
-/home/suddat/Documents/microserviceGuru/mssc-beer-service/src/test/java/com/microbrew/msscbeerservice/msscbeerservice/MsscBeerServiceApplicationTests.java
+/home/suddat/Documents/microserviceGuru/mssc-brewery-ws/mssc-beer-service/src/test/java/com/microbrew/msscbeerservice/msscbeerservice/MsscBeerServiceApplicationTests.java
+/home/suddat/Documents/microserviceGuru/mssc-brewery-ws/mssc-beer-service/src/test/java/com/microbrew/msscbeerservice/msscbeerservice/web/controller/BeerControllerTest.java

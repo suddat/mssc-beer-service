@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "sfg.brewery",
+      "type": "com.microbrew.msscbeerservice.msscbeerservice.services.inventory.BeerInventoryServiceRestTemplateImpl",
+      "sourceType": "com.microbrew.msscbeerservice.msscbeerservice.services.inventory.BeerInventoryServiceRestTemplateImpl"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
